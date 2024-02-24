@@ -1,0 +1,63 @@
+1<html>
+<head>
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/noise.css"/>
+          <title>Adam Makes Noise - Live Music from the Boston Area</title>
+</head>
+   
+
+    
+    <body>
+    <div id="bgimage"></div>
+    <img id="logo" src="/images/noiselogo.png" alt="Adam Makes Noise"></img>
+    <div id="flavortext">Live music that starts at the most. All the hits you know, love, <i>and</i> some you forgot about. I got 60's to Current. I got Hip hop. I got Metal. I got what you need.
+     </div>
+
+<div id="menu">
+<button class="collapsible" id="menubox1">Shows</button>
+<div class="content">
+<div data-tockify-component="calendar" data-tockify-calendar="adammakesnoise"></div>
+<script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+</div>
+<button class="collapsible" id="menubox2">Music</button>
+<div class="content">
+ <iframe width="100%" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/48376823&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false"></iframe>
+
+</div>
+<button class="collapsible" id="menubox3">Contact</button>
+<div class="content" id="mb3content">Drop a line to
+<a href="mailto:adammakesnoise@icloud.com">adammakesnoise@icloud.com</a> for your event, bar, restaurant, or private party needs.
+</div>
+    </div>
+    
+    
+    <div id="socialwrapper">
+    <div id="socialmedia">
+    <a href="http://www.facebook.com/adammakesnoise"><img src="images/facebook.png"></img></a>
+    <a href="http://www.instagram.com/adam.makes.noise"><img src="images/instagram.png"></img></a>
+    <!--a href="youtube.html"><img src="images/youtube.png"></img></a-->
+    </div>
+</div>
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
+

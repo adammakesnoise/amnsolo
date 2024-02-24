@@ -1,0 +1,131 @@
+/*-------------------PHONE VERSION-------(hover:none;) and--------------*/
+
+@media (hover : none) { @charset "UTF-8";
+
+
+    @font-face
+{
+font-family: "Code Light";
+src: url('/Noise_Site/fonts/code_light.ttf') format ('truetype'),
+     url('/Noise_Site/fonts/code_light.woff') format ('woff'),
+     url('/Noise_Site/fonts/code_light.woff2') format ('woff2');
+     url('/Noise_Site/fonts/code_light.svg#code_lightregular') format ('svg');
+
+    }
+
+a:link {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
+a:visited {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
+a:active {color:#ccc; text-decoration:none; font-family:'Open Sans', sans-serif;}
+a:hover {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
+a:focus {color:#fff; text-decoration:none; font-family:'Open Sans', sans-serif;}
+
+html, body {
+    width:100%;
+    background:rgb(000,000,000);
+    color: #fff;
+    margin:0px;
+    overflow:visible;
+}
+    
+    #bgimage {
+  background-image: url(/Noise_Site/images/noisebg.jpg);
+  background-size: cover;
+  position: fixed;
+    display:block;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+    opacity:.2;
+    filter:contrast(400%);
+}
+    
+    #logo {
+        visibility: visible;
+        position:fixed;
+        top:10px;
+        right:10px;
+        width:40%;
+        }
+
+    #flavortext{
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Avenir';
+        position:relative;
+        top:21%;
+        width: 90%;
+        margin-left: 5%;
+        
+    }
+    
+    #menuboxes {
+        position:relative;
+        top:55%;
+    }
+    
+    .menubox {
+        width:100%;
+        height:12%;
+        box-shadow: 1px -3px 5px #2d2d2d;   
+        
+    }
+    
+    .menubox a {
+        position:relative;
+        font-family: 'Code Light';
+        font-size: 105px;
+        top:20px;
+        left:40px;
+    }
+    
+    #box1 {
+        position:relative;
+        background:rgb(43,78,96);   
+        margin-top:-470px;
+        
+    }
+      #box2 {
+        position:relative;
+        background:rgb(66,119,147);   
+        margin-top:-5px;
+        
+    }
+      #box3 {
+        position:relative;
+        background:rgb(11,46,65);   
+        margin-top:-5px;
+        
+    }
+    
+    #socialmedia{
+        position:relative;
+        bottom:-60%;
+        width:100%;
+        padding-top:60px;
+    }
+    
+    #socialwrapper{
+        position:rel;
+        width:90%;
+       margin:0 auto;
+        
+    }
+
+    #socialmedia img { 
+        position:relative;
+        width:24%;
+        margin:auto;
+        opacity:.9
+        
+}
+    
+    
+
+
+
+
+} 
+
+/*---------- Small Screen Version ----------------------*/
+
